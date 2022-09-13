@@ -10,3 +10,24 @@ CREATE TABLE animals (
     PRIMARY KEY(id)
 );
 ALTER TABLE animals ADD species VARCHAR;
+
+CREATE TABLE owners(
+    id INT GENERATED ALWAYS AS IDENTITY,
+    full_name VARCHAR,
+    age INT,
+    PRIMARY KEY(id)
+);
+
+CREATE TABLE species(
+    id INT GENERATED ALWAYS AS IDENTITY,
+    name VARCHAR,
+    PRIMARY KEY(id)
+);
+
+ALTER TABLE animals DROP COLUMN species;
+ALTER TABLE animals
+    ADD species_id INT,
+    ADD CONSTRAINT animal_species FOREIGN KEY(species_id) REFERENCES species(id);
+ALTER TABLE animals
+    ADD owner_id INT,
+    ADD CONSTRAINT animal_owner FOREIGN KEY(species_id) REFERENCES owners(id);
