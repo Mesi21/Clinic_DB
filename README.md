@@ -1,5 +1,8 @@
 # Vet Clinic
 
+## Description
+
+It is a database project for a veterinary clinic.
 
 ## Getting Started
 
@@ -7,10 +10,13 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 - Use [schema.sql](./schema.sql) to create all tables.
 - Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
+- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. 
 
+## Tech Stack
 
-## Authors
+- PostgreSQL
+
+## Author
 
 #### :bust_in_silhouette: Molnar Emese 
   - [Mesi21](https://github.com/Mesi21)
@@ -29,9 +35,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- [Microverse](https://www.microverse.org/)
 
 ## 📝 License
 
