@@ -23,6 +23,11 @@ This repository includes files with plain SQL that can be used to recreate a dat
   - [LinkedIn](https://www.linkedin.com/in/emesemesimolnar/)  
   - [Twitter](https://twitter.com/buksimesi21) 
 
+#### :bust_in_silhouette: Hamma Azarok 
+  - [Hamma Azarok](https://github.com/hammaazarok)
+  - [LinkedIn](https://www.linkedin.com/in/hammaazarok/)  
+  - [Twitter](https://twitter.com/hamma10)  
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
