@@ -127,6 +127,9 @@ VALUES ('2020-05-24', (SELECT A.id FROM animals A WHERE A.name = 'Agumon'),
     (SELECT V.id FROM vets V WHERE V.name = 'William Tatcher')
 );
 
+
+-- Added 5 times to increase the execution time
+
 INSERT INTO visits (animal_id, vet_id, date_of_visit) SELECT * FROM (
     SELECT id FROM animals) animal_ids, 
     (SELECT id FROM vets) vets_ids, 
