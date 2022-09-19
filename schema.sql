@@ -62,3 +62,5 @@ CREATE TABLE visits (
 ALTER TABLE owners ADD COLUMN email VARCHAR(120);
 
 CREATE INDEX IF NOT EXISTS an_idx ON visits USING btree (animal_id ASC NULLS LAST) TABLESPACE pg_default;
+CREATE INDEX vet_idx ON visits (vet_id ASC NULLS LAST);
+CREATE INDEX e_idx ON owners (email ASC NULLS LAST);
