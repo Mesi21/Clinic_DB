@@ -16,6 +16,10 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 - PostgreSQL
 
+### ERD
+
+![ERD](./Assets/drawSQL-export-2022-09-20_17_03.png)
+
 ## Author
 
 #### :bust_in_silhouette: Molnar Emese 
